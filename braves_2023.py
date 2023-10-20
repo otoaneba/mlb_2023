@@ -47,7 +47,7 @@ def get_team_hitting_stats(season, date_arr):
     list
         list of dicts with all hitting stats for the given season (in first parameter)
     """
-    result_json_data = {}
+ 
     result_arr = []
 
     for date in date_arr:
